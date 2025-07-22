@@ -87,7 +87,7 @@ MySQL Connector JAR (put it in tomcat/lib folder)
 
 Set up MySQL Database
 
-Create the schema and tables using:
+Createing the schema and tables using:
 CREATE DATABASE hrm_system;
 USE hrm_system;
 
@@ -129,7 +129,7 @@ Configure DB
 In db/dbconfig.jsp:
 String dbURL = "jdbc:mysql://localhost:3306/hrm_system";
 String dbUser = "root";
-String dbPass = "your_password";
+String dbPass = "Sakshi@2020";
 
 Deploy the Project
 
@@ -137,7 +137,7 @@ Place HRM-System folder into tomcat/webapps/
 
 Start Tomcat (bin/startup.bat)
 
-Open browser: http://localhost:8080/HRM-System/index.html
+Open browser: http://localhost:8080/HRM-System/register.html
 
 Login and Use
 

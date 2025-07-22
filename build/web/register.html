@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <style>
+    body {
+     font-family: Arial;
+      background: #f2f2f2;
+     padding: 20px;
+     }
+    .container {
+     max-width: 350px;
+      margin: auto; 
+      background: #fff;
+       padding: 20px;
+     border-radius: 10px;
+      box-shadow: 0 0 10px #aaa;
+     }
+    input, select { 
+    width: 85%;
+     padding: 10px; 
+     margin: 10px 0;
+     }
+    input[type=submit] {
+     background: #007bff; 
+     color: #fff;
+      border: none;
+     cursor: pointer;
+     }
+    input[type=submit]:hover {
+         background: #0056b3;
+         }
+  </style>
+    </head>
+    <body>
+          <div class="container">
+    <h2>User Registration</h2>
+    <form action="regback.jsp" method="post">
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <select name="role" required>
+        <option value="">Select Role</option>
+        <option value="Developer">Developer</option>
+        <option value="Manager">Manager</option>
+      </select>
+      <input type="submit" value="Register">
+    </form>
+  </div>
+     </body>
+</html>
